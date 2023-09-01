@@ -3,3 +3,6 @@
 @tailwind utilities;
 
 
+.box{
+    @apply border-2 border-solid border-black p-10
+}
