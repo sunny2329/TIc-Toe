@@ -2,7 +2,54 @@
 @tailwind components;
 @tailwind utilities;
 
-
+.boxtext{
+    @apply mb-8 text-9xl
+}
 .box{
-    @apply border-2 border-solid border-black p-10
+    @apply border-2 border-solid border-black p-10 w-[9rem] h-[9rem] flex justify-center items-center
+}
+
+
+.box:hover{
+    @apply bg-blue-300
+}
+
+
+.box1{
+    @apply border-l-0 border-t-0
+}
+
+
+
+.box2{
+    @apply border-t-0
+}
+
+
+.box3{
+    @apply border-t-0 border-r-0
+}
+
+
+.box4{
+    @apply border-l-0
+}
+
+
+.box5{
+    @apply border-r-0
+}
+
+
+.box6{
+    @apply border-l-0 border-b-0
+}
+
+.box7{
+    @apply border-b-0
+}
+
+
+.box8{
+    @apply border-r-0 border-b-0
 }

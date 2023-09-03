@@ -644,11 +644,6 @@ video {
   line-height: 2.25rem;
 }
 
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
-}
-
 .font-bold {
   font-weight: 700;
 }
@@ -673,10 +668,62 @@ video {
   color: rgb(234 179 8 / var(--tw-text-opacity));
 }
 
+.boxtext {
+  margin-bottom: 2rem;
+  font-size: 8rem;
+  line-height: 1;
+}
+
 .box {
+  display: flex;
+  height: 9rem;
+  width: 9rem;
+  align-items: center;
+  justify-content: center;
   border-width: 2px;
   border-style: solid;
   --tw-border-opacity: 1;
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
   padding: 2.5rem;
+}
+
+.box:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(147 197 253 / var(--tw-bg-opacity));
+}
+
+.box1 {
+  border-left-width: 0px;
+  border-top-width: 0px;
+}
+
+.box2 {
+  border-top-width: 0px;
+}
+
+.box3 {
+  border-top-width: 0px;
+  border-right-width: 0px;
+}
+
+.box4 {
+  border-left-width: 0px;
+}
+
+.box5 {
+  border-right-width: 0px;
+}
+
+.box6 {
+  border-left-width: 0px;
+  border-bottom-width: 0px;
+}
+
+.box7 {
+  border-bottom-width: 0px;
+}
+
+.box8 {
+  border-right-width: 0px;
+  border-bottom-width: 0px;
 }
